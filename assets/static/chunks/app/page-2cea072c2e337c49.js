@@ -537,7 +537,7 @@
                                                                                 className: "text-primary text-wrap ",
                                                                                 children: (0, s.jsxs)("a", {
                                                                                     className: "text-underline",
-                                                                                    href: "https://x.com/cybusy",
+                                                                                    href: "https://x.com/shcansh",
                                                                                     target: "_blank",
                                                                                     children: ["You caught me! Click for the", (0, s.jsxs)("span", { className: "text-destructive", children: [" ", "surprise"] }),],
                                                                                 }),
@@ -553,7 +553,7 @@
                                                                                 className: "text-primary text-wrap ",
                                                                                 children: (0, s.jsxs)("a", {
                                                                                     className: "text-underline",
-                                                                                    href: "https://x.com/cybusy",
+                                                                                    href: "https://x.com/shcansh",
                                                                                     target: "_blank",
                                                                                     children: ["You caught me! Click for the", (0, s.jsxs)("span", { className: "text-destructive", children: [" ", "surprise"] }),],
                                                                                 }),
@@ -657,14 +657,14 @@
                                                             children: [
                                                                 /*  (0, s.jsxs)("a", {
                                                                      className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover  transition-all",
-                                                                     href: "https://x.com/cybusy",
+                                                                     href: "https://x.com/shcansh",
                                                                      target: "_blank",
                                                                      children: [
                                                                          (0, s.jsx)(Z.Z, { size: 32 }),
                                                                          (0, s.jsxs)("div", {
                                                                              className: "ml-2 flex flex-col items-start",
                                                                              children: [
-                                                                                 (0, s.jsx)("span", { children: "@cybusy" }),
+                                                                                 (0, s.jsx)("span", { children: "@shcansh" }),
                                                                                  (0, s.jsx)("span", { className: " text-sm font-normal", children: "I post about development and life." }),
                                                                              ],
                                                                          }),
@@ -688,14 +688,14 @@
 
                                                                   (0, s.jsxs)("a", {
                                                                      className: "flex items-center gap-2 p-4 border border-input shadow-sm rounded-md hover:text-primary-hover  transition-all",
-                                                                     href: "https://x.com/cybusy",
+                                                                     href: "https://x.com/shcansh",
                                                                      target: "_blank",
                                                                      children: [
                                                                          (0, s.jsx)(Z.Z, { size: 32 }),
                                                                          (0, s.jsxs)("div", {
                                                                              className: "ml-2 flex flex-col items-start",
                                                                              children: [
-                                                                                 (0, s.jsx)("span", { children: "@cybusy" }),
+                                                                                 (0, s.jsx)("span", { children: "@shcansh" }),
                                                                                  (0, s.jsx)("span", { className: " text-sm font-normal", children: "I post about development and life." }),
                                                                              ],
                                                                          }),
