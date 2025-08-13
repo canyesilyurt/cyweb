@@ -490,7 +490,7 @@
                                                                 ]);
 
                                                                 const apiwayintervalId = setInterval(() => {
-                                                                    countdown -= 1;
+                                                                    apiwaycountdown -= 1;
 
                                                                     o([
                                                                         ...l,
@@ -498,7 +498,7 @@
                                                                             children: (0, s.jsx)("div", {
                                                                                 className: " text-wrap text-primary",
                                                                                 children:
-                                                                                    `💎 I knew you wanted me! now we're going with you in ${countdown} seconds!`,
+                                                                                    `💎 I knew you wanted me! now we're going with you in ${apiwaycountdown} seconds!`,
                                                                             }),
                                                                         }),
                                                                     ]);
