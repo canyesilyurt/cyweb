@@ -273,6 +273,7 @@
             });
             _.displayName = P.gb.displayName;
             let U = [
+                { time: "August 2026", title: "🚀 APIWAY – Exclusive API Solutions", body: "APIWAY — A dedicated platform that brings together all API solutions developed by our company, designed for developers and businesses seeking reliability and performance. No third-party vendors — only high-performance, thoroughly tested APIs created by our own team. Users can choose a plan that suits their needs and start using it instantly. With secure payments, detailed usage analytics, and a scalable architecture, APIWAY delivers a premium API experience." },
                 { time: "July 2024", title: "🇬🇧 A company application for cy4udev has been submitted in the United Kingdom", body: "Limited company application has been made in the UK and now cy4udev is officially a company operating in the UK." },
                 { time: "July 2023", title: "\uD83C\uDF08 Founded an business named cy4udev", body: "This is my second small business venture. As a freelance developer, I opened this company because I wanted to operate under my company name again. Now I do everything I receive and complete under the name cy4udev." },
                 { time: "August 2021", title: "💼 Founder & Back-End Developer at Eventteyiz", body: "With the end of Covid-19, I developed a project where people can search for events and discover places to have fun. This project ended because it did not progress as efficiently as I wanted." },
@@ -470,64 +471,39 @@
                                                                         window.location.href = 'https://cy4u.dev';
                                                                     }
                                                                 }, 1000); 
+                                                                    break;
+                                                                    case "apiway":
+                                                                let apiwaycountdown = 5;
 
-                                                              /*    o([
+                                                                o([
                                                                     ...l,
                                                                     (0, s.jsx)(k.bs, {
-                                                                        children: (0, s.jsx)("span", {
-                                                                            className: "text-primary text-wrap ",
-                                                                            children: (0, s.jsxs)({
-                                                                                className: "text-underline",
-                                                                                target: "_blank",
-                                                                                children: ["💎 You caught me! now we're going with you in", (0, s.jsxs)("span", { className: "text-destructive", children: [" ", countdown, " seconds!"] }),],
-                                                                            }),
+                                                                        children: (0, s.jsx)("div", {
+                                                                            className: " text-wrap text-primary",
+                                                                            children:
+                                                                                `💎 I knew you wanted me! now we're going with you in ${apiwaycountdown} seconds!`,
                                                                         }),
                                                                     }),
                                                                 ]);
 
-                                                                const intervalId = setInterval(() => {
+                                                                const apiwayintervalId = setInterval(() => {
                                                                     countdown -= 1;
 
                                                                     o([
                                                                         ...l,
                                                                         (0, s.jsx)(k.bs, {
-                                                                            children: (0, s.jsx)("span", {
-                                                                                className: "text-primary text-wrap ",
-                                                                                children: (0, s.jsxs)({
-                                                                                    className: "text-underline",
-                                                                                    target: "_blank",
-                                                                                    children: ["💎 You caught me! now we're going with you in", (0, s.jsxs)("span", { className: "text-destructive", children: [" ", countdown, " seconds!"] }),],
-                                                                                }),
+                                                                            children: (0, s.jsx)("div", {
+                                                                                className: " text-wrap text-primary",
+                                                                                children:
+                                                                                    `💎 I knew you wanted me! now we're going with you in ${countdown} seconds!`,
                                                                             }),
                                                                         }),
                                                                     ]);
-                                                                    if (countdown <= 0) {
-                                                                        clearInterval(intervalId);
-                                                                        // window.open('https://cy4u.dev', '_blank'); // Yeni sekme aç
-                                                                        window.location.href = 'https://cy4u.dev';
+                                                                    if (apiwaycountdown <= 0) {
+                                                                        clearInterval(apiwayintervalId);
+                                                                        window.location.href = 'https://apiway.io';
                                                                     }
-                                                                }, 1000); */
-
-
-
-
-
-
-
-/* 
-                                                                    o([...l, (0, s.jsx)(k.bs, { children: `You caught me, now we're going with you in ${countdown} seconds 💎` })]);
-
-                                                                    const intervalId = setInterval(() => {
-                                                                        countdown -= 1;
-
-                                                                        o([...l, (0, s.jsx)(k.bs, { children: `You caught me, now we're going with you in ${countdown} seconds 💎` })]);
-
-                                                                        if (countdown <= 0) {
-                                                                            clearInterval(intervalId);
-                                                                            // window.open('https://cy4u.dev', '_blank'); // Yeni sekme aç
-                                                                            window.location.href = 'https://cy4u.dev';
-                                                                        }
-                                                                    }, 1000); */
+                                                                }, 1000); 
                                                                     break;
                                                                 case "x":
                                                                     o([
@@ -609,6 +585,9 @@
                                                                                     ",",
                                                                                     " ",
                                                                                     (0, s.jsx)("span", { className: "text-primary", children: "cy4udev" }),
+                                                                                    ",",
+                                                                                    " ",
+                                                                                     (0, s.jsx)("span", { className: "text-primary", children: "apiway" }),
                                                                                     ",",
                                                                                     " ",
                                                                                     (0, s.jsx)("span", { className: "text-primary", children: "clear" }),
