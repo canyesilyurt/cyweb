@@ -363,9 +363,9 @@
                                     " ",
                                     (0, s.jsx)("span", { className: "text-destructive", children: "cy4udev" }),
                                     ",",
-                                    " ",
+                                  /*   " ",
                                      (0, s.jsx)("span", { className: "text-destructive", children: "apiway" }),
-                                    ",",
+                                    ",", */
                                     " ",
                                     (0, s.jsx)("span", { className: "text-destructive", children: "clear" }),
                                     ",",
@@ -475,7 +475,7 @@
                                                                     }
                                                                 }, 1000); 
                                                                     break;
-                                                                    case "apiway":
+/*                                                                     case "apiway":
                                                                 let apiwaycountdown = 5;
 
                                                                 o([
@@ -507,7 +507,7 @@
                                                                         window.location.href = 'https://apiway.io';
                                                                     }
                                                                 }, 1000); 
-                                                                    break;
+                                                                    break; */
                                                                 case "x":
                                                                     o([
                                                                         ...l,
@@ -589,9 +589,9 @@
                                                                                     " ",
                                                                                     (0, s.jsx)("span", { className: "text-primary", children: "cy4udev" }),
                                                                                     ",",
-                                                                                    " ",
+                                                                                   /*  " ",
                                                                                      (0, s.jsx)("span", { className: "text-primary", children: "apiway" }),
-                                                                                    ",",
+                                                                                    ",", */
                                                                                     " ",
                                                                                     (0, s.jsx)("span", { className: "text-primary", children: "clear" }),
                                                                                     ",",
